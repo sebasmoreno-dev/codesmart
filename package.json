@@ -1,0 +1,17 @@
+{
+  "name": "codesmart-webapp",
+  "version": "1.0.0",
+  "description": "A web application for digital transformation and software solutions for Colombian SMEs.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run start --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "test": "npm run test --prefix frontend"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  },
+  "author": "CodeSmart Solutions S.A.S.",
+  "license": "MIT"
+}
