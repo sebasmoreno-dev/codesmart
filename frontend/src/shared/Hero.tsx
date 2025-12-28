@@ -27,7 +27,17 @@ const Hero: React.FC<Props> = ({ title, subtitle, bullets = [], ctaText, ctaLink
         )}
       </div>
       <div className="hero-image">
-        <img src="/assets/hero.svg" alt="Soluciones tecnológicas para pymes" />
+        {/* Use PUBLIC_URL so files in public/assets are served from /assets/... */}
+        <picture>
+          <source srcSet={`${process.env.PUBLIC_URL || ''}/assets/360ac6_573e7ab291ef41c3ac94470b2b7b9685~mv2.avif`} type="image/avif" />
+          <source srcSet={`${process.env.PUBLIC_URL || ''}/assets/360ac6_c9fbaa9bcc3544d993206cbb031ccccd~mv2.jpg`} type="image/jpeg" />
+          <img
+            src={`${process.env.PUBLIC_URL || ''}/assets/360ac6_c9fbaa9bcc3544d993206cbb031ccccd~mv2.jpg`}
+            alt="Soluciones tecnológicas para pymes"
+            loading="lazy"
+            style={{ maxWidth: '100%', borderRadius: 8 }}
+          />
+        </picture>
       </div>
     </section>
   );
