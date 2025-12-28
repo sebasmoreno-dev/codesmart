@@ -4,9 +4,9 @@ import ServiceCard from '../shared/ServiceCard';
 import CTA from '../shared/CTA';
 
 const services = [
-  { title: 'Desarrollo de software a la medida', desc: 'Diseñamos soluciones adaptadas a los procesos reales de tu empresa.', img: '/assets/service1.svg' },
-  { title: 'Plataformas web personalizadas', desc: 'Plataformas robustas y fáciles de usar para potenciar tu presencia online.', img: '/assets/service2.svg' },
-  { title: 'Automatización de procesos', desc: 'Reducimos tareas manuales para mejorar la eficiencia operativa.', img: '/assets/service3.svg' },
+  { title: 'Desarrollo de software a la medida', desc: 'Diseñamos soluciones adaptadas a los procesos reales de tu empresa.', img: '360ac6_573e7ab291ef41c3ac94470b2b7b9685~mv2.avif' },
+  { title: 'Plataformas web personalizadas', desc: 'Plataformas robustas y fáciles de usar para potenciar tu presencia online.', img: '360ac6_8a9d7701ba344ca48c3eb2a1ec6e7dcf~mv2.avif' },
+  { title: 'Automatización de procesos', desc: 'Reducimos tareas manuales para mejorar la eficiencia operativa.', img: '360ac6_c9fbaa9bcc3544d993206cbb031ccccd~mv2.jpg' },
 ];
 
 const Home: React.FC = () => {

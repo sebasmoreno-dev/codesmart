@@ -29,7 +29,7 @@ const Hero: React.FC<Props> = ({ title, subtitle, bullets = [], ctaText, ctaLink
       <div className="hero-image">
         {/* Use PUBLIC_URL so files in public/assets are served from /assets/... */}
         <picture>
-          <source srcSet={`${process.env.PUBLIC_URL || ''}/assets/360ac6_573e7ab291ef41c3ac94470b2b7b9685~mv2.avif`} type="image/avif" />
+          <source srcSet={`${process.env.PUBLIC_URL || ''}/assets/360ac6_d89fb98304644bbc83f92ad408afe7bd~mv2.avif`} type="image/avif" />
           <source srcSet={`${process.env.PUBLIC_URL || ''}/assets/360ac6_c9fbaa9bcc3544d993206cbb031ccccd~mv2.jpg`} type="image/jpeg" />
           <img
             src={`${process.env.PUBLIC_URL || ''}/assets/360ac6_c9fbaa9bcc3544d993206cbb031ccccd~mv2.jpg`}

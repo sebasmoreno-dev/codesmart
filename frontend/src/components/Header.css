@@ -1,34 +1,4 @@
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem 2rem;
-  background: #0f172a;
-  color: #fff;
-}
-.header .logo h1 {
-  margin: 0;
-  font-size: 1.25rem;
-}
-.navigation ul {
-  list-style: none;
-  display: flex;
-  gap: 1rem;
-  margin: 0;
-  padding: 0;
-}
-.navigation a {
-  color: #e2e8f0;
-  text-decoration: none;
-}
-.navigation a:hover {
-  text-decoration: underline;
-}
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem 2rem;
   background: #0b5fff;
   color: white;
 }
@@ -38,14 +8,25 @@
 }
 .navigation ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
   display: flex;
   gap: 1rem;
+  margin: 0;
+  padding: 0;
 }
 .navigation a {
   color: white;
   text-decoration: none;
+}
+.navigation a:hover {
+  text-decoration: underline;
+}
+.header-inner{ display:flex; align-items:center; justify-content:space-between; padding: 0.5rem 1rem }
+.navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
 }
 
 .mobile-toggle{
