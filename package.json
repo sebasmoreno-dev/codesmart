@@ -4,9 +4,10 @@
   "description": "A web application for digital transformation and software solutions for Colombian SMEs.",
   "main": "index.js",
   "scripts": {
-    "start": "npm run start --prefix frontend",
-    "build": "npm run build --prefix frontend",
-    "test": "npm run test --prefix frontend"
+  "start": "npm run start --prefix frontend",
+  "build": "npm run build --prefix frontend",
+  "test": "npm run test --prefix frontend",
+  "postinstall": "npm ci --prefix frontend"
   },
   "dependencies": {},
   "devDependencies": {
