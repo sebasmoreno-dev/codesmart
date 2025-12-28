@@ -4,9 +4,9 @@ import ServiceCard from '../shared/ServiceCard';
 import CTA from '../shared/CTA';
 
 const services = [
-  { title: 'Desarrollo de software a la medida', desc: 'Diseñamos soluciones adaptadas a los procesos reales de tu empresa.' },
-  { title: 'Plataformas web personalizadas', desc: 'Plataformas robustas y fáciles de usar para potenciar tu presencia online.' },
-  { title: 'Automatización de procesos', desc: 'Reducimos tareas manuales para mejorar la eficiencia operativa.' },
+  { title: 'Desarrollo de software a la medida', desc: 'Diseñamos soluciones adaptadas a los procesos reales de tu empresa.', img: '/assets/service1.svg' },
+  { title: 'Plataformas web personalizadas', desc: 'Plataformas robustas y fáciles de usar para potenciar tu presencia online.', img: '/assets/service2.svg' },
+  { title: 'Automatización de procesos', desc: 'Reducimos tareas manuales para mejorar la eficiencia operativa.', img: '/assets/service3.svg' },
 ];
 
 const Home: React.FC = () => {
@@ -20,11 +20,11 @@ const Home: React.FC = () => {
         ctaLink="/contacto"
       />
 
-      <section style={{ marginTop: '2rem' }}>
+      <section className="section">
         <h2>Servicios destacados</h2>
-        <div style={{ display: 'flex', gap: '1rem', marginTop: '1rem', flexWrap: 'wrap' }}>
+        <div className="grid" style={{ marginTop: '1rem' }}>
           {services.map((s) => (
-            <ServiceCard key={s.title} title={s.title} description={s.desc} />
+            <ServiceCard key={s.title} title={s.title} description={s.desc} image={s.img} />
           ))}
         </div>
       </section>

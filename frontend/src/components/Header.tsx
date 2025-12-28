@@ -1,14 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
 
 const Header: React.FC = () => {
+    const [open, setOpen] = useState(false);
+
     return (
         <header className="header">
             <div className="logo">
-                <h1>CodeSmart Solutions</h1>
+                <h1>CodeSmart</h1>
             </div>
-            <nav className="navigation">
+            <button className="mobile-toggle" onClick={() => setOpen((s) => !s)} aria-expanded={open} aria-label="Abrir menú">
+                ☰
+            </button>
+            <nav className={`navigation ${open ? 'open' : ''}`}>
                 <ul>
                     <li>
                         <Link to="/">Inicio</Link>

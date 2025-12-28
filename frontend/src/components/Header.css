@@ -47,3 +47,19 @@
   color: white;
   text-decoration: none;
 }
+
+.mobile-toggle{
+  display:none;
+  background:transparent;
+  color:white;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.navigation.open ul{ display:flex; flex-direction:column; gap:0.5rem; background: #0b5fff; padding: 1rem; position:absolute; right:1rem; top:64px; border-radius:8px }
+
+@media (max-width:600px){
+  .mobile-toggle{ display:block }
+  .navigation{ display:none }
+  .navigation.open{ display:block }
+}
