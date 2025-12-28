@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
-  <rect width="600" height="400" fill="#f7fafc" />
-  <circle cx="150" cy="160" r="60" fill="#0b5fff" />
-  <circle cx="300" cy="160" r="60" fill="#00c2ff" />
-  <circle cx="450" cy="160" r="60" fill="#ffb86b" />
-  <text x="300" y="320" fill="#6b7280" font-family="Arial" font-size="16" text-anchor="middle">Nuestro equipo</text>
-</svg>
